@@ -18,6 +18,3 @@ if 5 in cards.values():
     print('YES')
 else:
     print('NO')
-
-
-
