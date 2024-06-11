@@ -22,7 +22,7 @@ def bfs(l, start, end):
                 board[nx][ny] = board[x][y] + 1
                 queue.append((nx, ny))
 
-    return -1  # 이 경우는 실제로 발생하지 않음
+    return -1
 
 # 입력 처리
 data = input().split()
